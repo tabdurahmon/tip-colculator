@@ -1,3 +1,20 @@
+/* space-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/space-mono-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* space-mono-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/space-mono-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 *,
 *::after,
 *::before {
@@ -38,6 +55,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  font-family: "Space Mono", sans-serif;
 }
 
 /* normalize css problem fixed */
@@ -93,6 +111,7 @@ main {
   justify-content: space-between;
   background-color: #f3f9fa;
   margin: 0;
+  font-family: "Space Mono", sans-serif;
 
   &:active {
     border: 2px solid #26c2ae;
@@ -107,11 +126,16 @@ main {
   width: 89px;
   height: 36px;
   color: #00474b;
+  font-family: "Space Mono", sans-serif;
+  &:hover{
+    #26C2AE
+  }
 
   font-size: 24px;
   font-weight: 700;
   line-height: 35.54px;
   text-align: right;
+  font-family: "Space Mono", sans-serif;
 
   margin-right: 17px;
 }
@@ -133,6 +157,7 @@ main {
   margin-top: 16px;
   justify-content: center;
   align-items: center;
+  font-family: "Space Mono", sans-serif;
 }
 .group-two {
   margin-top: 40px;
@@ -143,9 +168,9 @@ main {
   align-items: center;
 }
 .group-two__list-one {
-  justify-content: space-between;
+  font-family: "Space Mono", sans-serif;
   display: flex;
-  align-items: center;
+  gap: 14px;
 }
 
 .list-one__link-two {
@@ -156,6 +181,12 @@ main {
   font-size: 24px;
   color: #fff;
   margin-top: 16px;
+  font-family: "Space Mono", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
 }
 .list-one__item {
   align-items: center;
@@ -194,12 +225,14 @@ main {
   font-weight: 700;
   line-height: 23.7px;
   text-align: left;
+  font-family: "Space Mono", sans-serif;
 }
 .section-2 {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   margin-left: 40px;
+  font-family: "Space Mono", sans-serif;
   margin-right: 40px;
 }
 .section-price {
@@ -208,5 +241,51 @@ main {
   line-height: 70px;
   letter-spacing: -1px;
   text-align: right;
+  font-family: "Space Mono", sans-serif;
   color: #26c2ae;
+}
+.list-one__link-two:hover {
+  background-color: #26c2ae;
+  color: #00474b;
+}
+.main-btn-reset {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Space Mono", sans-serif;
+  color: #00474b;
+  
+}
+.main-li {
+  width: 333px;
+height: 48px;
+margin-top: 120px;
+margin-left: 40px;
+&:hover {
+  background-color: #9FE8DF;
+}
+&:active {
+background-color: #0D686D;
+color: #00474B;
+}
+
+background-color:#26c2ae ;
+align-items: center;
+display: flex;
+flex-direction: center;
+justify-content: center;
+border-radius:8px;
+}
+.main-title {
+  width: 256px;
+height: 30px;
+top: 9px;
+left: 37px;
+gap: 0px;
+opacity: 0.35px;
+font-family: Space Mono;
+font-size: 20px;
+font-weight: 700;
+line-height: 29.62px;
+text-align: center;
+
 }
