@@ -12,7 +12,7 @@
   font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/space-mono-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/space-mono-v13-latin-700.woff2") format("woff2"); /*Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 *,
@@ -58,14 +58,13 @@ body {
   font-family: "Space Mono", sans-serif;
 }
 
-/* normalize css problem fixed */
 h1 {
   margin: 0;
 }
 
 .container {
   width: 100%;
-  max-width: 1200px; /* it depends on you project */
+  max-width: 1200px; 
   margin-left: auto;
   margin-right: auto;
   padding-left: 48px;
